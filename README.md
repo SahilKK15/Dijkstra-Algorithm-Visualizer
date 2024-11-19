@@ -1,10 +1,15 @@
-Graph Pathfinding Visualizer
-An interactive web application for exploring various graph algorithms, including Dijkstra's Algorithm, A*, and BFS. This tool is designed to help users understand how graph traversal and pathfinding algorithms work step-by-step through dynamic visualizations.
+# Visualisation of Dijkstra's Shortest Path Algorithm  <img src="./img/logo.svg" height="36">
 
-Features
-Algorithm Support: Visualize Dijkstra’s Algorithm, A*, and Breadth-First Search (BFS).
-Graph Creation: Drag and drop nodes to create custom graphs with weighted edges.
-Interactive Visualization: Watch how each algorithm traverses the graph to find the optimal path.
-Customizable Options: Adjust weights, add/remove nodes, and reset the graph.
-Responsive Design: Compatible with all modern browsers and devices.
+## What is this?
+The application is a tool to help students visualise how Dijkstra's algorithm runs.
 
+Dijkstra's algorithm finds the shortest path between two points in a network, and variants of it are used widely in maps, internet networking, finding cheapest costs of a flight, etc. See [the Wikipedia article](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) for more information.
+
+This application lets you:
+- Create your own graph networks
+- Calculate the best (lowest cost) path between two points in the network
+- Watch the algorithm work it out step-by-step, with explanations
+
+[Try it out here](https://tanxh33.github.io/visualise-dijkstra/).
+
+<img src="./img/app-1280.png" width="360">
